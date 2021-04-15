@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "heading-now-bold";
+  src: url("Fonts/heading-now/HeadingNow-46Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "heading-now-regular54";
+  src: url("Fonts/heading-now/HeadingNow-84Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "heading-now-regular-2";
+  src: url("Fonts/heading-now/HeadingNow-53Book.otf") format("opentype");
+}
+
+h1 {
+  font-family: "heading-now-bold";
+  z-index:10;
+}
+
+h3 {
+  font-family: "heading-now-regular54";
+  z-index:10;
+}
+
+p {
+  font-family: "heading-now-regular-2";
+  z-index:10;
+  font-size: 20px;
+}
+
+.page1 {
+  font-family: "heading-now-bold";
+  background-image: url("images/10.jpg");
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page1 h1 {
+  padding: 30px;
+  z-index:10;
+}
+
+.page1 h2 {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index:10;
+}
+
+.page1 .container {
+  text-align: center;
+}
+
+#countdown li {
+  display: inline-block;
+  font-size: 1em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+#countdown li span {
+  padding: 0px 20px 0px 20px;
+  display: block;
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.226);
+  border-radius: 5px;
+}
+
+.enter-website{
+    margin-top:30px;
+}
+
+.enter-website:hover{
+    color: red;
+}
+
+/* mailchimp signup */
+#mc_embed_signup {
+  border: none;
+  text-align: center;
+  width: 100%;
+} /* Signup form container */
+
+.mc-field-group {
+  display: inline-block;
+  colo:white;
+} /* positions input field horizontally */
+
+#mce-EMAIL {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  border: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.349);
+  padding: 0.7em 9em 0.7em 1em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0;
+} /* Input Styles */
+
+.clear {
+  display: inline-block;
+} /* positions button horizontally in line with input */
+
+.button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background-color: #2badb997;
+  padding: 0.7em 2em;
+  border: 2px solid #2badb997;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0;
+} /* Button Styles */
+
+:-webkit-input-placeholder {
+  color: #ffff;
+} /* WebKit browsers */
+:-moz-placeholder {
+  color: #ffff;
+} /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {
+  color: #ffff;
+} /* Mozilla Firefox 19+ */
+:-ms-input-placeholder {
+  color: #ffff;
+} /* Internet Explorer 10+ */
+
+@media (max-width: 768px) {
+  /* positions input field and button underneath each other with 100% width for tablet and mobile */
+
+  .mc-field-group {
+    display: block;
+    max-width: 100%;
+  }
+
+  #mce-EMAIL {
+    padding: 0.7em 0 0.7em 1em;
+    width: 96%;
+    margin: 0;
+  }
+  .clear {
+    display: block;
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+    margin: 0.5em 0 0 0;
+  }
+}
