@@ -81,12 +81,18 @@ p {
   border-radius: 5px;
 }
 
-.enter-website{
+.enter-website {
+  
     margin-top:30px;
 }
 
-.enter-website:hover{
-    color: #FD2B3F;
+.enter-website a{
+  text-decoration: none;
+  color:white !important;
+}
+
+.enter-website a:hover{
+    color: #FD2B3F !important;
 }
 
 /* mailchimp signup */
