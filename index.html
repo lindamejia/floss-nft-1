@@ -91,7 +91,7 @@
             clientDate = new Date(release);
             utc = clientDate.getTime() + (clientDate.getTimezoneOffset() * 60000);
 
-            alert(serverDate.toLocaleString());
+            serverDate = new Date(utc + (3600000 * offset));
 
             countDown = new Date(serverDate.toLocaleString()).getTime(),
                 x = setInterval(function () {
