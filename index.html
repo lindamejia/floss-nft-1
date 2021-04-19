@@ -86,7 +86,14 @@
                 day = hour * 24;
 
             let release = "Apr 20, 2021 16:20:00",
-                countDown = new Date(release).getTime(),
+                 offset = -4.0
+
+            clientDate = new Date(release);
+            utc = clientDate.getTime() + (clientDate.getTimezoneOffset() * 60000);
+
+            alert(serverDate.toLocaleString());
+
+            countDown = new Date(serverDate.toLocaleString()).getTime(),
                 x = setInterval(function () {
                     let now = new Date().getTime(),
                         distance = countDown - now;
