@@ -40,14 +40,14 @@ p {
   height: 100vh;
   overflow: auto;
   font-family: "heading-now-bold";
-  background: url("images/1.jpg");
+  background: url("images/2.jpeg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
 }
 
 .layer {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.872);
   position: absolute;
   top: 0;
   left: 0;
@@ -98,7 +98,7 @@ p {
 }
 
 .enter-website a:hover {
-  color: #fd2b3f !important;
+  color: #9086DE !important;
 }
 
 /* mailchimp signup */
@@ -136,9 +136,9 @@ p {
   font-size: 1em;
   letter-spacing: 0.03em;
   color: #fff;
-  background-color: #2badb997;
+  background-color: #8CE8EE;
   padding: 0.7em 2em;
-  border: 2px solid #2badb997;
+  border: 2px solid #8CE8EE;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
