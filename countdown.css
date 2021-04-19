@@ -198,4 +198,8 @@ p {
     right: 0px;
     padding-left: 10px;
   }
+
+  .page1 h1 {
+    padding: 10px;
+  }
 }

@@ -92,7 +92,7 @@
 
             let release = "04/20/2021 4:20 PM EDT",
 
-                countDown = new Date(release).getTime(),
+                countDown = new Date(release),
                 x = setInterval(function () {
                     let now = new Date().getTime(),
                         distance = countDown - now;
