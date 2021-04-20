@@ -26,7 +26,7 @@
             <h1 class="brand">FLOSSTRADAMUS PRESENTS</h1>
             <div class="container">
                 <div class="row">
-                    <h1 id="headline"></h1>
+                    <h1 id="headline">OUT NOW</h1>
                     <div class="row">
                         <div class="col-md-3 col-sm-12 col-xs-12">
                             <a href="https://rarible.com/flosstradamus">
@@ -53,7 +53,7 @@
                                 </video></a>
                         </div>
                     </div>
-                    <div id="countdown">
+                    <!-- <div id="countdown">
                         <h1>Launching Soon</h1>
                         <ul>
                             <li class="col-md-2 col-xs-3">Days<span id="days"></span></li>
@@ -61,7 +61,7 @@
                             <li class="col-md-2 col-xs-3">Minutes<span id="minutes"></span></li>
                             <li class="col-md-2 col-xs-3">Seconds<span id="seconds"></span></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="enter-website">
                     <a href="http://flosstradamus.com/"> ENTER WEBSITE </a>
@@ -78,48 +78,48 @@
 
     <script type="text/javascript">
         // Countdown
-        (function () {
-            const second = 1000,
-                minute = second * 60,
-                hour = minute * 60,
-                day = hour * 24;
+        // (function () {
+        //     const second = 1000,
+        //         minute = second * 60,
+        //         hour = minute * 60,
+        //         day = hour * 24;
 
-            let release = "04/20/2021 4:20 PM EDT",
-                countDown = new Date(release)
-            // console.log("Countdown:", countDown),
-            x = setInterval(function () {
-                let now = new Date()
+        //     let release = "04/20/2021 4:20 PM EDT",
+        //         countDown = new Date(release)
+        //     // console.log("Countdown:", countDown),
+        //     x = setInterval(function () {
+        //         let now = new Date()
 
-                distance = countDown - now;
+        //         distance = countDown - now;
 
-                (document.getElementById("days").innerText = Math.floor(
-                    distance / day
-                )),
-                    (document.getElementById("hours").innerText = Math.floor(
-                        (distance % day) / hour
-                    )),
-                    (document.getElementById("minutes").innerText = Math.floor(
-                        (distance % hour) / minute
-                    )),
-                    (document.getElementById("seconds").innerText = Math.floor(
-                        (distance % minute) / second
-                    ));
+        //         (document.getElementById("days").innerText = Math.floor(
+        //             distance / day
+        //         )),
+        //             (document.getElementById("hours").innerText = Math.floor(
+        //                 (distance % day) / hour
+        //             )),
+        //             (document.getElementById("minutes").innerText = Math.floor(
+        //                 (distance % hour) / minute
+        //             )),
+        //             (document.getElementById("seconds").innerText = Math.floor(
+        //                 (distance % minute) / second
+        //             ));
 
-                //do something later when date is reached
-                if (distance < 0) {
-                    let headline = document.getElementById("headline"),
-                        countdown = document.getElementById("countdown"),
-                        content = document.getElementById("content");
+        //         //do something later when date is reached
+        //         if (distance < 0) {
+        //             let headline = document.getElementById("headline"),
+        //                 countdown = document.getElementById("countdown"),
+        //                 content = document.getElementById("content");
 
-                    headline.innerText = "OUT NOW!";
-                    countdown.style.display = "none";
-                    content.style.display = "block";
+        //             headline.innerText = "OUT NOW!";
+        //             countdown.style.display = "none";
+        //             content.style.display = "block";
 
-                    clearInterval(x);
-                }
-                //seconds
-            }, 0);
-        })();
+        //             clearInterval(x);
+        //         }
+        //         //seconds
+        //     }, 0);
+        // })();
 
       //  Countdown
     </script>
