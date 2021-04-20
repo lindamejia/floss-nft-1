@@ -89,13 +89,12 @@
     <script type="text/javascript">
         // Countdown
         (function () {
-            console.log(Intl.DateTimeFormat().resolvedOptions())
             const second = 1000,
                 minute = second * 60,
                 hour = minute * 60,
                 day = hour * 24;
 
-            let release = "04/20/2021 4:20 PM EDT",
+            let release = "04/20/2021 4:20 PM",
                 countDown = new Date(release)
             console.log("Countdown:", countDown),
                 x = setInterval(function () {
