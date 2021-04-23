@@ -26,9 +26,9 @@
             <h1 class="brand">FLOSSTRADAMUS PRESENTS</h1>
             <div class="container">
                 <div class="row">
-                    <h1 id="headline"></h1>
+                    <h1 id="headline">CLOSING</h1>
                     <div id="countdown">
-                        <h1>CLOSING</h1>
+                        <!-- <h1>CLOSING</h1> -->
                         <ul>
                             <li class="col-md-2 col-xs-3">Days<span id="days"></span></li>
                             <li class="col-md-2 col-xs-3">Hours<span id="hours"></span></li>
@@ -108,7 +108,7 @@
                         let headline = document.getElementById("headline"),
                             countdown = document.getElementById("countdown"),
                             content = document.getElementById("content");
-                        headline.innerText = "CLOSED";
+                        headline.style.display = "none";
                         countdown.style.display = "none";
                         content.style.display = "block";
                         clearInterval(x);
